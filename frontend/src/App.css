@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-input_container {
+    @apply mb-4 flex justify-center flex-col;
+  }
+
+  .form-input_label {
+    @apply block text-gray-700 text-sm font-bold mb-2;
+  }
+
+  .form-input {
+    @apply w-full p-2 border rounded focus:outline-none focus:border-[#2684FF];
+  }
+}
